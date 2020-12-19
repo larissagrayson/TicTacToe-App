@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="messages-outer hidden">
+            <p class="messages"></p>
+        </div>
+        <div class="scoreboard">
+            <div class="player-x current-turn">
+                <p class="name">Player (X)</p>
+                <p class="score-x">0</p>
+            </div>
+            <div class="player-o">
+                <p class="name">Player (O)</p>
+                <p class="score-o">0</p>
+            </div>
+        </div>
+        <div class="gameboard">
+            <div class="space top left" data-number="0"></div>
+            <div class="space top center" data-number="1"></div>
+            <div class="space top right" data-number="2"></div>
+            <div class="space middle left" data-number="3"></div>
+            <div class="space middle center" data-number="4"></div>
+            <div class="space middle right" data-number="5"></div>
+            <div class="space bottom left" data-number="6"></div>
+            <div class="space bottom center" data-number="7"></div>
+            <div class="space bottom right" data-number="8"></div>
+        </div>
+        <div class=mode>
+            <p>Current Mode: <span class="mode-type"> 2 Player</p></span>
+            <button>Change Mode</button>
+        </div>
+    </div>
+    
+    <script src="tictactoe.js"></script>
+</body>
+</html>
