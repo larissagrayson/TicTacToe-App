@@ -14,6 +14,8 @@ The computer player is a very simple AI where it chooses a random empty square a
 
 It is built using HTML, CSS and vanilla JavaScript.  The layout is achieved using both CSS Grid and Flexbox.
 
+A live demo of this app can be viewed [here](https://larissagrayson.github.io/TicTacToe-App/).
+
 **SKILLS DEMONSTRATED:**
  * Closures
  * Constructor functions
